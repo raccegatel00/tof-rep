@@ -1,0 +1,34 @@
+.slide6 {
+    width: 100%;
+    height: 734px;
+}
+
+.slide6 .address_block {
+    width: 585px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 4000px;
+    left: 14.5vw;
+    z-index: 4;
+    padding: 67px 72px;
+}
+
+.slide6 .address_block .title {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 37px;
+    color: #001013;
+    margin: 0;
+}
+
+
+.slide6 .address_block .address_element .content_el img {
+    margin-right: 10px;
+}
+
+.slide6 .address_block .address_element .content_el p {
+    margin: 0;
+    padding-top: 4px;
+    max-width: 250px;
+}

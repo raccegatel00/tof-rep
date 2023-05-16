@@ -1,0 +1,21 @@
+.address_element {
+    max-width: 250px;
+    margin-top: 35px;
+}
+
+.address_element .el_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #001013;
+    margin: 0;
+}
+
+.address_element .content_el {
+    display: flex;
+    padding-top: 16px;
+    max-width: 250px;
+    width: 250px;
+    align-items: flex-start;
+}

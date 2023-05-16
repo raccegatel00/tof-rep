@@ -1,0 +1,66 @@
+.footer_main_block {
+    display: flex;
+}
+
+.footer_logo_block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.footer_info_block {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 181px;
+}
+
+.footer_info_block .requisites_block {
+    width: 100%;
+    margin-top: 53px;
+}
+
+.footer_info_block .requisites_block .title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_info_block .requisites_block .requisites {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info_block .requisites_block .requisites p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_nav_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_nav_block ul{
+    display: flex;
+}
+
+.footer_nav_block ul li+li {
+    margin-left: 48px;
+}
+
+.footer_nav_block .phone_block {
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav_block .phone_block img {
+    margin-right: 17px;
+}

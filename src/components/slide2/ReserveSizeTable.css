@@ -1,0 +1,43 @@
+.reserve_size_table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+    margin-top: 75px;
+}
+.reserve_size_table td {
+    border-collapse: collapse;
+    border: 0.5px solid rgba(0, 16, 19, 0.5);
+    padding: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.reserve_size_table thead td {
+    padding-top: 0;
+    text-align: left;
+}
+
+.reserve_size_table .title_col {
+    padding-left: 0;
+}
+
+.reserve_size_table tbody .title_col {
+    font-weight: 800;
+    font-size: 23px;
+    color: black;
+}
+
+.reserve_size_table tbody td {
+    font-weight: 700;
+    font-size: 25px;
+    color: #E9B206;
+    text-align: center;
+}
+
+.reserve_size_table tbody tr td {
+    padding-bottom: 0;
+}
+
+.reserve_size_table tbody tr:not(:first-child) {
+    border-style: hidden;
+}

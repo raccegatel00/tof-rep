@@ -1,0 +1,20 @@
+footer {
+    background-color: #434F52;
+    display: flex;
+    justify-content: center;
+    padding: 63px 0 53px 0;
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .line {
+    background:
+            linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(216,216,208,0.5) 50%, rgba(255,255,255,0) 100%);
+    height: 1px;
+    width: 100%;
+    margin: 51px 0;
+}

@@ -1,0 +1,80 @@
+.slide4 {
+    height: 940px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide4 .content {
+    display: flex;
+}
+
+.slide4 .left_background {
+    width: 100%;
+}
+
+.slide4 .left_block {
+    height: 100%;
+    min-width: 400px;
+}
+
+.slide4 .left_block {
+    direction: rtl;
+}
+
+.slide4 .left_block img {
+    height: 100%;
+    background: rgba(242, 246, 249, 0.5);
+}
+
+.slide4 .right_block {
+    min-width: 842px;
+    background-color: #E9B206;
+    padding-top: 100px;
+}
+
+.slide4 .right_block p {
+    padding-left: 85px;
+}
+
+.slide4 .right_background {
+    background-color: #E9B206;
+    width: 100%;
+}
+
+.slide4 .right_block .title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #001013;
+}
+
+.slide4 .right_block .subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.slide4 .right_block table {
+    padding-left: 85px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.slide4 .right_block table td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #001013;
+}
+
+.slide4 .right_block table .header td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+

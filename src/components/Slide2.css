@@ -1,0 +1,10 @@
+.slide2 {
+    height: 1006px;
+    background: rgba(242, 246, 249, 0.5);
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+

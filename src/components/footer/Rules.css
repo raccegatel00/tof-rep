@@ -1,0 +1,12 @@
+.rules {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rules span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
