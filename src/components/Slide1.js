@@ -2,10 +2,18 @@ import './Slide1.css';
 import gun from '../img/gun.svg';
 import logo from '../img/logo.svg';
 import phone from '../img/phone.svg';
-import {openModalPhone, openModalReason} from "./modal/modals";
+import {openModalReason} from "./modal/modals";
 import './slide1/gun.css';
+import {ModalPhone} from "./modal/ModalPhone";
+import {useState} from "react";
 
 function Slide1() {
+    const [isOpenModalPhone, setIsOpenModalPhone] = useState(false);
+
+    const openModalPhone = () => {
+        setIsOpenModalPhone(!isOpenModalPhone);
+    };
+
     return (
         <div className="slide1">
             <div className="gun">
@@ -14,7 +22,7 @@ function Slide1() {
             <div className="content">
                 <header>
                     <div className="left_block">
-                        <a href="/Users/user/PhpstormProjects/reactapptest/public">
+                        <a href="#">
                             <img src={logo} alt=""/>
                         </a>
                         <ul>
@@ -56,6 +64,7 @@ function Slide1() {
                     </div>
                 </div>
             </div>
+            {isOpenModalPhone && <ModalPhone handleClose={() => setIsOpenModalPhone(false)}></ModalPhone>}
         </div>
     )
 }

@@ -7,27 +7,27 @@ function DescriptionList() {
             <Description
                 className="first_dec"
                 title={"Наружный слой"}
-                desc={<div>
+                desc={<span>
                     Черный, гладкий,<br/>
                     электропроводящий,<br/>
                     атмосферостойкий,<br/>
                     маслобензостойкий<br/>
-                </div>}/>
+                </span>}/>
             <Description
                 className="second_dec"
                 title={"Армирование"}
-                desc={<div>
+                desc={<span>
                     Нитяное усиление,<br/>
                     2 медные проволоки
-                </div>}/>
+                </span>}/>
             <Description
                 className="third_dec"
                 title={"Внутренний слой"}
-                desc={<div>
+                desc={<span>
                     NBR, черный, гладкий,<br/>
                     электропроводящий,<br/>
                     маслобензостойкий
-                </div>}/>
+                </span>}/>
         </div>
     )
 }
