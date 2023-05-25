@@ -2,6 +2,10 @@ import styled from "styled-components";
 import FuelFillButton from "./buttons/FuelFillButton";
 import ProgressBar from "./ProgressBar/ProgressBar";
 import {useEffect, useState} from "react";
+import {useDispatch, useSelector} from "react-redux";
+import {STATUS_GO_AWAY, STATUS_WAIT_GAS} from "../figures/Car/LogicCar";
+import {increment, nextLevel, resetValue, setFull} from "../../../store/reducers/gameProgressReducer";
+import {setCarStatus} from "../../../store/reducers/gameCarStatusReducer";
 
 
 
@@ -24,28 +28,23 @@ const BottomButtons = styled.div`
 
 
 export default function GUI(props) {
-    const [currentProgress, setCurrentProgress] = useState(0);
-    const [totalCount, setTotalCount] = useState(0);
+    const currentProgress = useSelector((state) => state.game_progress.value);
+    const status = useSelector((state) => state.game_car_status.value)
+    const dispatch = useDispatch();
     const [koef, setKoef] = useState(20);
 
     const handleFill = () => {
-        let val = currentProgress + koef;
-
-        if (val >= 100) {
-            setCurrentProgress(100);
-        } else {
-            setCurrentProgress(val);
-        }
-    }
-
-    useEffect(() => {
-        if (currentProgress == 100) {
-            if (props.handleFullFill)
-            {
-
+        if (status === STATUS_WAIT_GAS) {
+            let val = currentProgress + koef;
+            if (val >= 100) {
+                dispatch(setFull(100));
+                dispatch(setCarStatus(STATUS_GO_AWAY));
+                setKoef(0.6 * koef);
+            } else {
+                dispatch(increment(koef));
             }
         }
-    }, [currentProgress])
+    }
 
 
     return (

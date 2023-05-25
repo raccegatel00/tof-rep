@@ -7,7 +7,7 @@ import {getRandomColor, lightenDarkenColor} from "../../components/ColorChanger"
 export default function Car(props) {
     const [downKeys, setDownKeys] = useState(new Set());
     const [x, setX] = useState(props.x);
-    const [y, setY] = useState(0);
+    const [y, setY] = useState(props.y);
     const [bumpColor, setBumpColor] = useState('#638465');
     const [color, setColor] = useState('#f4e8cb');
     const [moldingColor, setMoldingColor] = useState('#3f323d');
@@ -22,45 +22,45 @@ export default function Car(props) {
 
     const z = 40;
 
-    const handleUserKeyPress = event => {
-        const { key, keyCode } = event;
+    // const handleUserKeyPress = event => {
+    //     const { key, keyCode } = event;
+    //
+    //     downKeys.add(keyCode)
+    //     setDownKeys(downKeys);
+    //
+    //     console.log(event);
+    //     if(downKeys.has(87)){
+    //         setY(y - 10);
+    //     }
+    //
+    //     if(downKeys.has(83)){
+    //         setY(y + 10);
+    //     }
+    //
+    //     if(downKeys.has(68)){
+    //         setX(x + 10);
+    //     }
+    //
+    //     if(downKeys.has(65)){
+    //         setX(x - 10);
+    //     }
+    // };
 
-        downKeys.add(keyCode)
-        setDownKeys(downKeys);
-
-        console.log(event);
-        if(downKeys.has(87)){
-            setY(y - 10);
-        }
-
-        if(downKeys.has(83)){
-            setY(y + 10);
-        }
-
-        if(downKeys.has(68)){
-            setX(x + 10);
-        }
-
-        if(downKeys.has(65)){
-            setX(x - 10);
-        }
-    };
-
-    const handleUserKeyUp = event => {
-        const { key, keyCode } = event;
-
-        downKeys.delete(keyCode);
-        setDownKeys(downKeys);
-    };
-
-    useEffect(() => {
-        window.addEventListener("keydown", handleUserKeyPress);
-        window.addEventListener("keyup", handleUserKeyUp);
-        return () => {
-            window.removeEventListener("keydown", handleUserKeyPress);
-            window.removeEventListener("keydown", handleUserKeyUp);
-        };
-    }, [handleUserKeyPress, handleUserKeyUp]);
+    // const handleUserKeyUp = event => {
+    //     const { key, keyCode } = event;
+    //
+    //     downKeys.delete(keyCode);
+    //     setDownKeys(downKeys);
+    // };
+    //
+    // useEffect(() => {
+    //     window.addEventListener("keydown", handleUserKeyPress);
+    //     window.addEventListener("keyup", handleUserKeyUp);
+    //     return () => {
+    //         window.removeEventListener("keydown", handleUserKeyPress);
+    //         window.removeEventListener("keydown", handleUserKeyUp);
+    //     };
+    // }, [handleUserKeyPress, handleUserKeyUp]);
 
     useEffect(() => {
         if (props.x) setX(props.x);

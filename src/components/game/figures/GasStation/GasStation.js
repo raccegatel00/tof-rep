@@ -3,7 +3,7 @@ import Rectangle from "../Rectangle";
 import {lightenDarkenColor} from "../../components/ColorChanger";
 import {useEffect, useState} from "react";
 
-export default function gasStationColor(props) {
+export default function GasStation(props) {
     const tombColor = '#8e7679';
     const roofColor = '#a6a8a3';
     const gasStationColor = '#891c24';
