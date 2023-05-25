@@ -1,0 +1,31 @@
+@keyframes carWorkSimulate {
+    from {
+
+    }
+
+    to {
+        transform: translateZ(2px);
+    }
+}
+
+#car {
+    animation-duration: 0.1s;
+    animation-name: carWorkSimulate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-style: preserve-3d;
+}
+
+#car * {
+    transition: 0.1s;
+}
+
+
+#wheel {
+    position: absolute;
+    animation-duration: 1s;
+    animation-name: wheelSimulate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-style: preserve-3d;
+}

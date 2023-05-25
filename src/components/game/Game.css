@@ -1,0 +1,23 @@
+#container_game{
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    border: 2px solid #000000;
+    perspective: 600px;
+}
+
+#world{
+    width:900px;
+    height:400px;
+    background-color:#434F52;
+    transform:translate3d(100px,0px,0px) rotateX(45deg);
+    transform-style:preserve-3d
+}
+
+#square1{
+    position:absolute;
+    width:200px;
+    height:200px;
+    background-color:#FF0000;
+    transform: rotateY(10deg);
+}
