@@ -1,0 +1,16 @@
+.gui_button {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: 150px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.gui_button:hover {
+   border: solid black 5px;
+}
+
+.gui_button:active {
+    filter: invert();
+}

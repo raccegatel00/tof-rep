@@ -1,20 +1,6 @@
 import styled from "styled-components";
 import {useEffect, useState} from "react";
 
-// export const PlaneBlock = styled.div`
-//     position:absolute;
-//     width:${props => props.width}px;
-//     height:${props => props.height}px;
-//     background-color:${props => props.color};
-//     transform:
-//         translate3d(${props => props.x}px,${props => props.y}px,${props => props.z}px)
-//         rotateX(${props => props.angleX}deg)
-//         rotateY(${props => props.angleY}deg)
-//         rotateZ(${props => props.angleZ}deg);
-//     transform-style:preserve-3d;
-//     transition: 0.1s;
-// `;
-
 export default function PlaneBlock(props) {
     const [color, setColor] = useState('red');
     const [height, setHeight] = useState('10');

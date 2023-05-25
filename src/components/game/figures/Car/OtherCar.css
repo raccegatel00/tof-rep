@@ -1,0 +1,17 @@
+@keyframes carOtherWorkSimulate {
+    from {
+    }
+
+    to {
+        transform: translateY(-5000px);
+    }
+}
+
+#other_car {
+    transform-style: preserve-3d;
+    animation-duration: 5s;
+    animation-delay: 7s;
+    animation-name: carOtherWorkSimulate;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}

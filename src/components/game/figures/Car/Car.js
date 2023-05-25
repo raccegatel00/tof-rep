@@ -201,7 +201,7 @@ export default function Car(props) {
                     height={40}
                     width={20}
                     depth={40}
-                    x={x+5}
+                    x={x}
                     y={y+20}
                     z={z-40}
                     color={wheelColor}
@@ -211,7 +211,7 @@ export default function Car(props) {
                     height={40}
                     width={20}
                     depth={40}
-                    x={x+5}
+                    x={x}
                     y={y+170}
                     z={z-40}
                     color={wheelColor}
@@ -221,7 +221,7 @@ export default function Car(props) {
                     height={40}
                     width={20}
                     depth={40}
-                    x={x+width-25}
+                    x={x+width-20}
                     y={y+20}
                     z={z-40}
                     color={wheelColor}
@@ -230,12 +230,38 @@ export default function Car(props) {
                     height={40}
                     width={20}
                     depth={40}
-                    x={x+width-25}
+                    x={x+width-20}
                     y={y+170}
                     z={z-40}
                     color={wheelColor}
                 />
             </div>
+
+            {/*# back eyes*/}
+            {/*# left*/}
+            <Rectangle
+                height={10}
+                width={20}
+                depth={20}
+                x={x+10}
+                y={y+height}
+                z={z+40}
+                color={'#b24240'}
+                leftColor={'#260807'}
+                frontColor={'#960011'}
+            />
+            {/*# right*/}
+            <Rectangle
+                height={10}
+                width={20}
+                depth={20}
+                x={x+width-30}
+                y={y+height}
+                z={z+40}
+                color={'#b24240'}
+                leftColor={'#260807'}
+                frontColor={'#960011'}
+            />
         </div>
     )
 }
