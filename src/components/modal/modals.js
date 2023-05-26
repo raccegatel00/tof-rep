@@ -161,7 +161,6 @@ export function openModalReason() {
 }
 
 export function openModalImage(e) {
-    console.log(e.target)
     let img = e.target.cloneNode()
     const modal = document.createElement('div');
 

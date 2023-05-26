@@ -9,7 +9,9 @@ export const Promo = styled.h2`
 
 export function ModalGame(props) {
     return (
-        <div className={'modal open'}>
+        <div className={'modal open'} style={{
+            height: '100%'
+        }}>
             <div className={'modal-bg modal-exit'} onClick={props.handleClose}></div>
             <div className={'modal-container'}>
                 <FormTitle>

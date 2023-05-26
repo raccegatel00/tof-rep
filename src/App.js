@@ -13,12 +13,12 @@ function App() {
         <div className="App">
             <Slide1/>
             <Slide2/>
+            <Game/>
             <Slide3/>
             <Slide4/>
             <Slide5/>
-            {/*<Slide6/>*/}
-            <Game/>
-            {/*<Footer/>*/}
+            <Slide6/>
+            <Footer/>
         </div>
     );
 }

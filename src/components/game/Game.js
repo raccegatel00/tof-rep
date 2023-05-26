@@ -15,7 +15,6 @@ import {ModalPromo} from "../modal/ModalPromo";
 import {ModalGame} from "../modal/ModalGame";
 
 const ContainerGameBlock = styled.div`
-    position: absolute;
     width: 100%;
     height: 800px;
     perspective: 1500px;

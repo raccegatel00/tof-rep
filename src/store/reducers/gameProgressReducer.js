@@ -9,7 +9,6 @@ export const gameProgressReducer = createSlice({
     },
     reducers: {
         increment: (state, action) => {
-            console.log(action);
             state.value += action.payload
         },
         setFull: (state) => {
