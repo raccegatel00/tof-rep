@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tof-rep/static/css/main.e314ad72.css",
-    "main.js": "/tof-rep/static/js/main.9949d61c.js",
+    "main.js": "/tof-rep/static/js/main.48dcb644.js",
     "static/media/gun.svg": "/tof-rep/static/media/gun.16ea026d511acd27e822759b2d70fb4a.svg",
     "static/media/slide1_background.png": "/tof-rep/static/media/slide1_background.4ece34a35abad68742d0.png",
     "static/media/stanok.png": "/tof-rep/static/media/stanok.f1b5babca407ab11d8a8.png",
     "static/media/Circe-Light.ttf": "/tof-rep/static/media/Circe-Light.61755338a0e56c46dab8.ttf",
     "static/media/Circe-Bold.ttf": "/tof-rep/static/media/Circe-Bold.63396ee791f60623acbf.ttf",
+    "static/media/2.jpeg": "/tof-rep/static/media/2.194cdc624c13bbc6227c.jpeg",
+    "static/media/3.jpeg": "/tof-rep/static/media/3.6c8c767dbd2895807687.jpeg",
     "static/media/main_razrez.svg": "/tof-rep/static/media/main_razrez.a5fbf42a7e1fe7703bf0.svg",
+    "static/media/1.jpeg": "/tof-rep/static/media/1.48d4c523800b1efad9d3.jpeg",
     "static/media/logo_wh.svg": "/tof-rep/static/media/logo_wh.cb2e5ab06772738f2361277aeaa35ebb.svg",
     "static/media/logo.svg": "/tof-rep/static/media/logo.0daaab0db2ae259cc20a49871c8ef9b8.svg",
     "static/media/4.jpeg": "/tof-rep/static/media/4.2af02b7671ef57aa9ff1.jpeg",
     "static/media/5.jpeg": "/tof-rep/static/media/5.079276904a1b629e1761.jpeg",
-    "static/media/1.jpeg": "/tof-rep/static/media/1.9acbbfa353c7aeb2d7bb.jpeg",
-    "static/media/2.jpeg": "/tof-rep/static/media/2.479e36ca1cd091c0c35f.jpeg",
-    "static/media/3.jpeg": "/tof-rep/static/media/3.f92916b21e05fb9db599.jpeg",
     "static/media/whats.svg": "/tof-rep/static/media/whats.e7f6a8c1e2a94a13b160cd6871aaff82.svg",
     "static/media/calendar.svg": "/tof-rep/static/media/calendar.203b710632c141ccaa105c536009b166.svg",
     "static/media/vk.svg": "/tof-rep/static/media/vk.0f61217fa59c2f27ba4db0a2558f6d81.svg",
@@ -28,10 +28,10 @@
     "static/media/arrow.svg": "/tof-rep/static/media/arrow.8b0194357fdc5682ccda.svg",
     "static/media/arrow-carousel.svg": "/tof-rep/static/media/arrow-carousel.8c6eaedceb25d654671a.svg",
     "main.e314ad72.css.map": "/tof-rep/static/css/main.e314ad72.css.map",
-    "main.9949d61c.js.map": "/tof-rep/static/js/main.9949d61c.js.map"
+    "main.48dcb644.js.map": "/tof-rep/static/js/main.48dcb644.js.map"
   },
   "entrypoints": [
     "static/css/main.e314ad72.css",
-    "static/js/main.9949d61c.js"
+    "static/js/main.48dcb644.js"
   ]
 }
