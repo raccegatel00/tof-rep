@@ -1,16 +1,12 @@
 import './Game.css';
 import World from "./World";
 import styled from "styled-components";
-import Car from "./figures/Car/Car";
 import GasStation from "./figures/GasStation/GasStation";
 import OtherCar from "./figures/Car/OtherCar";
-import asphalt from '../../img/game/asphalt-1-2.jpg'
 import GUI from "./components/GUI";
 import LogicCar, {STATUS_END, STATUS_GO_AWAY, STATUS_GO_GAS, STATUS_NONE} from "./figures/Car/LogicCar";
 import {useEffect, useState} from "react";
-import {useDispatch, useSelector} from "react-redux";
-import {setCarStatus} from "../../store/reducers/gameCarStatusReducer";
-import {ModalPhone} from "../modal/ModalPhone";
+import {useSelector} from "react-redux";
 import {ModalPromo} from "../modal/ModalPromo";
 import {ModalGame} from "../modal/ModalGame";
 

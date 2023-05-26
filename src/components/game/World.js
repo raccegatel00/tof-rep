@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import PlaneBlock from "./figures/PlaneBlock";
 
 export default function World(props) {

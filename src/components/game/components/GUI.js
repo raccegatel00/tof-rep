@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import FuelFillButton from "./buttons/FuelFillButton";
 import ProgressBar from "./ProgressBar/ProgressBar";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {STATUS_GO_AWAY, STATUS_WAIT_GAS} from "../figures/Car/LogicCar";
-import {increment, nextLevel, resetValue, setFull} from "../../../store/reducers/gameProgressReducer";
+import {increment, setFull} from "../../../store/reducers/gameProgressReducer";
 import {setCarStatus} from "../../../store/reducers/gameCarStatusReducer";
 
 

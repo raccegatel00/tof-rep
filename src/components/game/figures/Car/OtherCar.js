@@ -1,6 +1,5 @@
 import './OtherCar.css';
 import Car from "./Car";
-import {useState} from "react";
 
 export default function OtherCar() {
     return (
